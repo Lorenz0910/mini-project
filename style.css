@@ -1,0 +1,222 @@
+/* navs */
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ .nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: right;
+}
+.nav a {
+  display: block;
+  color: #ffffff;
+  padding: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  
+}
+a:hover {
+  background-color:  rgba(0, 0, 0, 0.712);
+}
+li{
+  display: inline-block;
+}
+.logo img{
+  width: 100px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #928e8e79;
+  backdrop-filter: brightness(60%);
+}
+.title{
+  color: rgb(255, 255, 255);
+}
+
+/* home */
+#index{
+  background-image:url(../hometown/img/home.jpg);
+  background-attachment: fixed;
+  background-position: 50% 20%;
+  background-size: cover;
+  width: 100%;
+  backdrop-filter: brightness(40%);
+}
+.flex-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap ;
+  align-items: flex-end;
+}
+.items{
+  width: 270px;
+  margin: 10px;
+  border-radius: 15px;
+  color: #ffffff;
+  width: 80%;
+  background-color: rgba(119, 122, 124, 0.541);
+}
+.item-image{
+  height: 200px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.items h1{
+  padding: 10px;
+}
+.items p{
+  padding: 10px;
+}
+.image1{
+  background-image: url(../hometown/img/IMG_27.JPG)
+}
+.image2{
+  background-image: url(../hometown/img/Ph_locator_ilocos_norte_san_nicolas.png);
+background-position: 50%;
+}
+.image3{
+  background-image: url(../hometown/img/unnamed.jpg);
+}
+.image4{
+ background-image: url(../hometown/img/Flag_of_San_Nicolas\,_Ilocos_Norte.png);
+}
+/* festival */
+#festival{
+ background-image: url(../hometown/img/banga.JPG);
+ background-repeat:no-repeat ;
+ background-attachment: fixed;
+ background-position: 50% 20%;
+ background-size: cover;
+ width: 100%;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap ;
+  align-items: flex-end;
+}
+h1{
+  color: antiquewhite;
+  text-align: center;
+  margin: 10px;
+}
+.fes-items{
+  width: 100%;
+  color: #ffffff;
+  padding: 20px;
+  font-size: medium;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.picture1{
+ background-image: url(../hometown/img/baket\ nga\ agdamdamili.jpg);
+}
+.fes-picture{
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+ 
+}
+
+/*events*/
+#events{
+  background-image: url(../hometown/img/events\ pic.jpg);
+  background-repeat:no-repeat ;
+  background-attachment: fixed;
+  background-position: 50% 20%;
+  background-size: cover;
+  width: 100%;
+  backdrop-filter: brightness(30%)
+}
+.img1{
+  background-image: url(../hometown/img/damili\ event.jpg);
+}
+.event-img{
+  height: 400px;
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1{
+  color: antiquewhite;
+  text-align: center;
+  margin: 10px;
+}
+.event-item{
+  width: 100%;
+  color: #ffffff;
+  padding: 20px;
+  font-size: medium;
+  border-radius: 10px;
+  margin-top: 10px;
+  
+}
+.event-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap ;
+}
+/* tourist */
+#tourist{
+  background-image: url(../hometown/img/IMG_27.JPG);
+  background-attachment: fixed;
+  background-position: 50% 20%;
+  background-size: cover;
+  height: 200px;
+  backdrop-filter: brightness(50%); height: auto;
+}
+.tourist-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap ;
+  align-items: flex-end;
+}
+.tourist-items{
+  width: 270px;
+  margin: 10px;
+  border-radius: 15px;
+  color: #ffffff;
+  width: 80%;
+  background-color: rgba(119, 122, 124, 0.541);
+}
+.tourist-image{
+  height: 150px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 200px
+}
+.items h1{
+  padding: 10px;
+}
+.items p{
+  padding: 10px;
+}
+.pic1{
+  background-image: url(../hometown/img/Church_of_San_Nicolas_\(1\)\(1\).jpg);
+}
+.pic2{
+  background-image: url(../hometown/img/robinson.jpg);
+}
+.pic3{
+  background-image: url(../hometown/img/plaza.jpg);
+}
+.pic4{
+  background-image: url(../hometown/img/old\ house.jpg);
+}
+
